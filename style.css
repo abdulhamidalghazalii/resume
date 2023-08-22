@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+:root {
+  --bg-color: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1.5)), url("./img/Bg.png");
+  --bg-light: #fff;
+  --font-color: #3d3d3d;
+  --font-light: #202020;
+  --text-muted: rgba(33, 37, 41, 0.75);
+  --bg-jumbo: #e3e5f2;
+}
+
+.lightMode {
+  --bg-color: #171923;
+  --bg-light: #232535;
+  --font-color: #c5cddb;
+  --font-light: #ffffff;
+  --text-muted: #ffffff;
+  --bg-jumbo: #232535;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: var(--text-muted) !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--font-light);
+  /* background-color: var(--bg-color); */
+  transition: all 500ms;
+
+  background: var(--bg-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  padding: 2rem 2rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+.jobs {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.tech {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.tech .card {
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(17, 218, 245, 0.904) 5px 5px ;
+  background-color: #fff;
+}
+
+.tech .card h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1px;
+  margin-top: 12px;
+}
+
+.tech .card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+.tech h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.tech p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.edu {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.edu .card {
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(17, 218, 245, 0.904) 5px 5px;
+  
+  margin-bottom: 20px;
+}
+
+.edu .card h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 1px;
+  margin-top: 12px;
+}
+
+.edu .card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 1px;
+  margin-top: 12px;
+}
+
+.project {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.project .card {
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(17, 218, 245, 0.904) 5px 5px;
+  background-color: #fff;
+}
+
+.project .card h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.project .card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.footer.card {
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
